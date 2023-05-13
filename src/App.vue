@@ -25,7 +25,7 @@
       <!-- YEAR -->
       <div>
         <p class="tracking-widest text-xs text-c-smoke-grey pb-1 font-bold">YEAR</p>
-        <input type="text" v-model="inputs.info.year"
+        <input type="text" v-model="inputs.info.year" 
           class="text-lg pl-4 text-c-off-black font-bold basis-1/4 bg-transparent w-28 h-10 outline-none border border-c-light-grey rounded-md placeholder:text-c-smoke-grey placeholder:font-extrabold placeholder:py-8 placeholder:text-lg"
           placeholder="YYYY">
         <p v-show="!inputs.info.isValidYear" class="mt-1 text-xs text-c-red italic ">Must be in the past</p>
